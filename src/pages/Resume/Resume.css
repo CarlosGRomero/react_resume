@@ -1,0 +1,14 @@
+/* Resume.css */
+.inline-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Adjust the gap as needed */
+}
+
+.inline-skills li {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0.5rem 1rem;
+  background-color: #e9ecef; /* Optional: Add a background color to each skill */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}

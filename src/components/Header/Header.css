@@ -1,0 +1,50 @@
+/* Header.css */
+.Header {
+    background-color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Header .Header-branding {
+    font-size: 2rem;  /* Larger font size for central branding */
+    font-weight: bold;
+    color: crimson; /* Updated color to crimson red */
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .Header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Header-nav .Header-nav-item {
+    margin-left: 1rem;
+    color: #333;  /* Removed blue color */
+    font-size: 0.7rem;  /* Smaller font size for navigation items */
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .Header-nav .Header-nav-item:hover,
+  .Header-nav .Header-nav-item--active {
+    color: #333;  /* Removed blue color */
+  }
+  
+  @media (max-width: 992px) {
+    .Header-nav {
+      flex-direction: column;
+    }
+    .Header-nav .Header-nav-item {
+      margin: 0.5rem 0;
+    }
+  }
+  

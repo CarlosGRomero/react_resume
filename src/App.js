@@ -7,6 +7,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import ServerError from './pages/ServerError';
 import NotFound from './pages/NotFound'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
